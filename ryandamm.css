@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #28c8e4;
+  color: #494545;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#content {
+  margin: auto;
+}
+
+#content > img {
+  border-radius: 50%;
+  border-style: outset;
+  max-width: 320px;
+}
