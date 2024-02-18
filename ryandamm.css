@@ -50,6 +50,9 @@ body {
     padding: 10px 5px;
     margin: 10px;
   }
+  #content > h2 {
+    font-size: 14pt;
+  }
   #portrait {
     max-width: 180px;
   }
