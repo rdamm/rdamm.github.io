@@ -30,6 +30,19 @@ body {
   max-width: 320px;
 }
 
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12pt;
+  }
+  #content {
+    padding: 5px;
+    margin: 10px;
+  }
+  #content > img {
+    max-width: 180px;
+  }
+}
+
 @keyframes fadeInFromNone {
   0% {
     display: none;
