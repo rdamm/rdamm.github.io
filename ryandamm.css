@@ -24,10 +24,22 @@ body {
   animation: fadeInFromNone 1s ease-out, moveUpFromBottom 1s ease-out;
 }
 
-#content > img {
+#portrait {
   border-radius: 50%;
   border: 3px solid #494545;
   max-width: 320px;
+}
+
+#linkList a {
+  margin: 0 20px;
+  color: #494545;
+  text-decoration: none;
+}
+
+#linkList img {
+  max-height: 14pt;
+  margin-right: 5px;
+  vertical-align: sub;
 }
 
 @media only screen and (max-width: 480px) {
@@ -38,8 +50,11 @@ body {
     padding: 5px;
     margin: 10px;
   }
-  #content > img {
+  #portrait {
     max-width: 180px;
+  }
+  #linkList img {
+    max-height: 12pt;
   }
 }
 
