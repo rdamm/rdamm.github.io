@@ -14,6 +14,9 @@ body {
 
 #content {
   margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffe4c4;
 }
 
 #content > img {
